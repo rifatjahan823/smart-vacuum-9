@@ -1,6 +1,12 @@
 import React from 'react';
-
+import { useNavigate } from 'react-router-dom';
+import'./Home.css'
 const Home = () => {
+    let navigate = useNavigate();
+    const ShowProductsDetails =()=>{
+        const path=`/review`
+        navigate(path)
+    }
     return (
         <div>
            <div class="container">
@@ -14,8 +20,9 @@ const Home = () => {
                          <img className='w-75 float-end' src="https://m.media-amazon.com/images/I/7132iME3YHL._AC_SX679_.jpg" alt="" />
                      </div>
                  </div>
-                 <h2 className='text-center'>customer review</h2>
-                 <div class="row justify-content-evenly">
+                <div className='mt-5'>
+                <h2 className='text-center'>customer review</h2>
+                 <div class="row">
                     <div className="col-lg-3 col-md-6 col-sm-12">
                         One of two columns
                     </div>
@@ -26,6 +33,11 @@ const Home = () => {
                      One of two columns
                     </div>
                  </div>
+                 <button  onClick={ShowProductsDetails } className='d-flex mx-auto mt-5'>
+                    <p> see more</p>
+                     <p>x</p>
+                 </button>
+                </div>
             </div>
         </div>
     );

@@ -1,7 +1,8 @@
 # Smart Vacuum
-##[Preview](https://project-09-smart-vacuum.netlify.app)
 ##
-[https://project-09-smart-vacuum.netlify.app]
+[Preview](https://project-09-smart-vacuum.netlify.app)
+##
+[https://project-09-smart-vacuum.netlify.app](https://project-09-smart-vacuum.netlify.app)
 
 This project was bootstrapped with [Create React App](https://project-09-smart-vacuum.netlify.app).
 

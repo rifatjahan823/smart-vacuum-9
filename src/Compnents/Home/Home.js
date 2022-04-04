@@ -19,7 +19,7 @@ const Home = () => {
                      <div className="col-lg-6 col-md-6 col-sm-12">
                          <h2> Wi-Fi Connected Robot Vacuum Cleaner</h2>
                          <p>Wi-Fi Convenience: The EufyHome app, and Amazon Alexa and the Google Assistant voice control-services let you accomplish your vacuuming needs with zero effort from you.Worry-Free Cleaning: The slim 2.85" body—upgraded to 1500Pa* suction—only cleans the areas you want.A Quiet Clean: Vacuums for up to 100 minutes** of constant, powerful suction at a volume no louder than an operating microwave.</p>
-                         <button className='btn btn-danger text-capitalize'>live demo</button>
+                         <button className='demo-button text-capitalize'>live demo</button>
                       </div>
                      <div className="col-lg-6 col-md-6 col-sm-12">
                          <img className='w-75 float-end' src="https://m.media-amazon.com/images/I/7132iME3YHL._AC_SX679_.jpg" alt="" />
@@ -36,7 +36,7 @@ const Home = () => {
                         </HomeReviewDetails>)
                         }
                  </div>
-                 <button  onClick={ShowProductsDetails } className='d-flex mx-auto mt-5 text-capitalize align-items-center'>
+                 <button  onClick={ShowProductsDetails } className='review-button d-flex mx-auto mt-5 text-capitalize align-items-center '>
                     <p className=' me-2'> see more reviews</p>
                      <p> <FontAwesomeIcon icon={faArrowRight} /></p>
                  </button>

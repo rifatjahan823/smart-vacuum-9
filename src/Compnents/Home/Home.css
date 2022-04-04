@@ -1,7 +1,16 @@
-button{
+.review-button{
   padding: 10px 20px 0px 20px;
     border: 0px;
-   
+    background-color: #26419c;
+   color:white;
+   border-radius: 10px;
+}
+.demo-button {
+  background-color: #26419c;
+  color:white;
+  border-radius: 10px;
+  border: 0;
+  padding: 10px 20px;
 }
 .review{
   display: grid;

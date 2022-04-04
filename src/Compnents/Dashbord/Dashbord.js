@@ -23,7 +23,7 @@ const Dashbord = () => {
         },
         {
          "month": "Jun",
-         "investment": 500000,
+         "investment": 300000,
          "sell": 529,
          "revenue": 40405
         },
@@ -42,7 +42,7 @@ const Dashbord = () => {
       ]
     return (
         <div className='container'>
-        <div className='row mt-5 g-5'>
+        <div className='row mt-5'>
           {/*------------------ Chart -1------- */}
              <div className='col-lg-6 col-md-6 col-sm-12'>
              <ComposedChart width={350} height={250} data={data}>

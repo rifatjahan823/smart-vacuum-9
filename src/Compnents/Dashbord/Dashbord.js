@@ -59,6 +59,7 @@ const Dashbord = () => {
              {/*------------------ Chart -2------- */}
             <div className='col-lg-6 col-md-6 col-sm-12'>
             <PieChart width={350} height={250}>
+            <Tooltip />
             <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
             <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
             </PieChart>
@@ -87,11 +88,12 @@ const Dashbord = () => {
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="month">
             </XAxis>
+            <Tooltip />
             <Bar dataKey="sell" fill="#8884d8">
-                <LabelList dataKey="name" position="insideTop" angle="45"  />
+              <LabelList dataKey="name" position="insideTop" angle="45"  />
             </Bar>
             <Bar dataKey="investment" fill="#82ca9d">
-                <LabelList dataKey="investment" position="top" />
+              <LabelList dataKey="investment" position="top" />
             </Bar>
             </BarChart>
             </div>

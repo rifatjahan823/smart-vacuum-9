@@ -8,7 +8,7 @@ const Header = () => {
          <div className='container'>
            <div className='d-flex align-items-center justify-content-between'>
          <div className='logo pt-3'>
-            <h1 className='text-uppercase'>smart Vacuum</h1>
+            <h1 className='text-uppercase text-white'>smart Vacuum</h1>
           </div>
           <nav className='d-flex justify-content-center'>
             <CustomLink to="/">Home</CustomLink>

@@ -8,7 +8,7 @@ const ReviewDetails = ({review}) => {
         <div className='ReviewDetails border text-center p-3'>
             <img src={review.picture} alt="" />
             <p>{review.name}</p>
-            <p>Rating:{review.rating}*</p>
+            <p>Rating:{review.rating} <FontAwesomeIcon style={{color: 'goldenrod'}} icon={faStar} /></p>
             <p>{review.description}</p>
         </div>
     );

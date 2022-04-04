@@ -8,7 +8,7 @@ const HomeReviewDetails = ({review}) => {
         <div className=' border px-5 py-2 text-center HomeReviewDetails'>
             <img src={review.picture} alt="" />
             <p>{review.name}</p>
-            <p>Rating:{review.rating}*</p>
+            <p>Rating:{review.rating}  <FontAwesomeIcon style={{color: 'goldenrod'}} icon={faStar} /></p>
             <p>{review.description}</p>
         </div>
     );

@@ -42,9 +42,9 @@ const Dashbord = () => {
       ]
     return (
         <div className='container'>
-        <div className='row mt-5'>
+        <div className='row mt-5 g-5'>
              <div className='col-lg-6 col-md-6 col-sm-12'>
-             <ComposedChart width={500} height={250} data={data}>
+             <ComposedChart width={350} height={250} data={data}>
             <XAxis dataKey="month" />
             <YAxis />
             <Tooltip />
@@ -56,13 +56,13 @@ const Dashbord = () => {
             </ComposedChart>
             </div> 
             <div className='col-lg-6 col-md-6 col-sm-12'>
-            <PieChart width={500} height={250}>
+            <PieChart width={350} height={250}>
             <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" outerRadius={50} fill="#8884d8" />
             <Pie data={data} dataKey="revenue" nameKey="month" cx="50%" cy="50%" innerRadius={60} outerRadius={80} fill="#82ca9d" label />
             </PieChart>
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12 mt-5'>
-            <LineChart width={500} height={250} data={data}
+            <LineChart width={350} height={250} data={data}
             margin={{ top: 5, right: 30, left: 20, bottom: 5 }}>
             <CartesianGrid strokeDasharray="3 3" />
             <XAxis dataKey="month" />
@@ -75,7 +75,7 @@ const Dashbord = () => {
             </div>
             <div className='col-lg-6 col-md-6 col-sm-12 mt-5'>
             <BarChart
-            width={500}
+            width={350}
             height={250}
             data={data}
             margin={{ top: 15, right: 30, left: 20, bottom: 5 }}

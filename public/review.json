@@ -1,32 +1,63 @@
 [
     {
-      "id": "6249e296a6c805842d148d29",
-      "name": "Blair Justice",
+      "id": "1",
+      "name": "Luke",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkfF6nBhidhIzL330CYtg70I8tpDBGJ2YjBPnE9D9gY0iLmGu563WBIab4KBexSDv7kG8&usqp=CAU",
-      "description": "this is our product review"
+      "description": "This vacuum cleaner very helpful and doing good work ",
+      "rating":"4"
     },
     {
-      "id": "6249e296278bd62173e66c11",
-      "name": "Mosley Salinas",
+      "id": "2",
+      "name": "Nastascia Rangel",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSlz-Zh38lxkxyQTeGlCWwTdp4-4xq-mndlpg&usqp=CAU",
-      "description": "this is our product review"
+      "description": "Very modern technology easy to use and very high quality",
+      "rating":"4.5"
     },
     {
-      "id": "6249e2963d950acb7ea0d3c0",
-      "name": "Stefanie Giles",
+      "id": "3",
+      "name": "Charles",
       "picture": "https://i.pinimg.com/736x/89/90/48/899048ab0cc455154006fdb9676964b3.jpg",
-      "description": "this is our product review"
+      "description": "I just open the package and i'm very surpprice...this vacuum looking so good.This product really recommendable",
+      "rating":"5"
     },
     {
-      "id": "6249e296beab28d9431e4287",
-      "name": "Cobb Stephens",
+      "id": "4",
+      "name": "Laura",
       "picture": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ8ZnkzcgmXBCRxvlTYhTwZ9YTt61P6tgtEMIBdLHA_0sKI_DZIDS-70sccgXHa2OaEtmE&usqp=CAU",
-      "description": "this is our product review"
+      "description": "I use this product.This product work very fast very satisfiable",
+      "rating":"4.5"
     },
     {
-      "id": "6249e296f0c78b2e4fb7ada1",
-      "name": "Irma Knapp",
+      "id": "5",
+      "name": "Ariel",
       "picture": "https://thumbs.dreamstime.com/b/user-sign-icon-person-symbol-human-avatar-rich-man-84519083.jpg",
-      "description": "this is our product review"
+      "description": "I have spent weeks researching robotic vacuums. After comparing and contrasting different models from big-name brands like iRobot, iLife, Eufy, etc, I figured this would be a good budget vacuum. I bought this a few weeks ago and have been using it. Here are my thoughts. ",
+      "rating":"5"
+    },
+    {
+      "id": "6",
+      "name": "Irma Knapp",
+      "picture": "https://cdn3.vectorstock.com/i/1000x1000/30/97/flat-business-man-user-profile-avatar-icon-vector-4333097.jpg",
+      "description": "Bought this to help the wife with chores. She was skeptical at first as she looked at the Eufy as a toy. She told me to send it back. I explained that we should try it first and if it doesn't work out, we could send it back. ",
+      "rating":"4"
+    },
+    {
+      "id": "7",
+      "name": "Erin",
+      "picture": "https://cdn2.vectorstock.com/i/1000x1000/41/11/flat-business-woman-user-profile-avatar-icon-vector-4334111.jpg",
+      "description": "We have a dog, a cat, and a blended family of five teens. I wish I had bought this a long time ago as it would have saved me lots of angst from stepping on messy floors and fighting with teens to vacuum! Day three of using this and I'm loving it ",
+      "rating":"5"
+    },
+      {"id": "8",
+      "name": "Kat",
+      "picture": "https://www.pngitem.com/pimgs/m/0-6243_user-profile-avatar-scalable-vector-graphics-icon-woman.png",
+      "description": "Since it appears to be an unspoken requirement to give your robotic vacuum a human name, we called ours Mr. Wonderful. Mr. Wonderful has become quite an important member of our family. ",
+      "rating":"4"
+    },
+      {"id": "9",
+      "name": "William",
+      "picture": "https://i.pinimg.com/originals/7d/34/d9/7d34d9d53640af5cfd2614c57dfa7f13.png",
+      "description": "First let me preface this with - this is an amazing vacuum cleaner. We have 3 dogs, and a 2400sqft house. It keeps our floors practically spotless after a nights run. I'd highly recommend buying it, but read on to see why it might annoy you. ",
+      "rating":"5"
     }
   ]
